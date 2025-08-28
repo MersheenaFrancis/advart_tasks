@@ -1,0 +1,475 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - muslin towel",
+        "totalResults": "8170000",
+        "searchTerms": "muslin towel",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "c7af6f0bf9cd64734"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - muslin towel",
+        "totalResults": "8170000",
+        "searchTerms": "muslin towel",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "c7af6f0bf9cd64734"
+      }
+    ]
+  },
+  "context": {
+    "title": "Web Search"
+  },
+  "searchInformation": {
+    "searchTime": 0.48212,
+    "formattedSearchTime": "0.48",
+    "totalResults": "8170000",
+    "formattedTotalResults": "8,170,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Muslin Towels - Amazon.com",
+      "htmlTitle": "Muslin Towels - Amazon.com",
+      "link": "https://www.amazon.com/muslin-towels/s?k=muslin+towels",
+      "displayLink": "www.amazon.com",
+      "snippet": "Ultra Soft Muslin Towel Adult Set, 100% Turkish Cotton 4-Layer 2 Pieces Luxury Muslin Hand & Bath Towels Sets for Bathroom (Indigo Blue, 1 Bath & 1 Hand Towel\u00a0...",
+      "htmlSnippet": "Ultra Soft <b>Muslin Towel</b> Adult Set, 100% Turkish Cotton 4-Layer 2 Pieces Luxury Muslin Hand &amp; Bath Towels Sets for Bathroom (Indigo Blue, 1 Bath &amp; 1 Hand Towel&nbsp;...",
+      "formattedUrl": "https://www.amazon.com/muslin-towels/s?k=muslin+towels",
+      "htmlFormattedUrl": "https://www.amazon.com/<b>muslin</b>-<b>towel</b>s/s?k=<b>muslin</b>+<b>towel</b>s",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQds-Gquh-B5mOVq0jgrEct5l4LosGmWEneJQePSs1lVRx-QeRc4y9BemZZ&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "theme-color": "#131921",
+            "viewport": "width=device-width, maximum-scale=2, minimum-scale=1, initial-scale=1, shrink-to-fit=no",
+            "flow-closure-id": "1756363407",
+            "encrypted-slate-token": "AnYxNSiSpHH/iUsjuRpDm/8NWjsI1akkV7nsBIQJWElQxmhwR7qjRszG7izwKRxIiMTHKshcHvn9DHpLkl5WV/SlQPoT5e3bwKbt9ctfAEHXMiClNlhFkBYZ7sCrJtfHtSm4IeMbQi77wBWafZ1CkvO6ppGuD+R1MiK93/hJiv/TApeGm5d3Q5pkAV5+EGy09M2j/nFoBBNlOEscQV5xEmxxCuiBY6EStqQZEaoBubJJGf04h9nB843cZIB0kzyREA06Ocfv5VnMJjWWDPsjPSh7XlJaUrU2HgbLSw==",
+            "anti-csrftoken-a2z": "hNPylKq9lONAGgHGNQdpxmXYLPH6aJh79p9opYJv00DkAAAAAGiv+48wNjZhY2ZmNS1lNzZjLTQyM2UtOTc2OC1mYWU3YTc0Nzk2ODI="
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://m.media-amazon.com/images/G/01/social_share/amazon_logo._CB635397845_.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Everything Towel - Muslin Comfort",
+      "htmlTitle": "Everything <b>Towel</b> - <b>Muslin</b> Comfort",
+      "link": "https://muslincomfort.com/products/breathable-cotton-hand-towel",
+      "displayLink": "muslincomfort.com",
+      "snippet": "This super soft 100% pure muslin cotton mini-blanket/oversized hand towel is crafted with 8 layers of breathable, temperature regulating, absorbent, moisture-\u00a0...",
+      "htmlSnippet": "This super soft 100% pure <b>muslin</b> cotton mini-blanket/oversized hand <b>towel</b> is crafted with 8 layers of breathable, temperature regulating, absorbent, moisture-&nbsp;...",
+      "formattedUrl": "https://muslincomfort.com/products/breathable-cotton-hand-towel",
+      "htmlFormattedUrl": "https://<b>muslin</b>comfort.com/products/breathable-cotton-hand-<b>towel</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXUPMrkXP19mhpK4jOrmqwN1-xIi867OX1d4v2UTu5tLYi9VNU38Jr4rbb&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "http://muslincomfort.com/cdn/shop/files/muslin-comfort-everything-towel-undyed-2.jpg?v=1748532275",
+            "og:type": "product",
+            "og:image:width": "2727",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Muslin Towels | Everything Towel - Muslin Comfort",
+            "og:site_name": "Muslin Comfort",
+            "og:price:amount": "27.99",
+            "og:title": "Muslin Towels | Everything Towel - Muslin Comfort",
+            "og:price:currency": "USD",
+            "og:image:height": "2727",
+            "shopify-checkout-api-token": "eced6190e23658e4941adba5420fac19",
+            "og:description": "The Everything Towel is a multi-use as a kitchen/dish towel, bath towel, gym towel, hair towel, burp cloth or a baby nurse-to-nap blanket! Made from 100% pure muslin cotton. This multi use towel is the one stop shop for all your household needs. OEKO-Tex certified.",
+            "og:image:secure_url": "https://muslincomfort.com/cdn/shop/files/muslin-comfort-everything-towel-undyed-2.jpg?v=1748532275",
+            "facebook-domain-verification": "9t3jg00ena3lh2jaclj8ff6uef9zp5",
+            "viewport": "width=device-width,initial-scale=1",
+            "twitter:description": "The Everything Towel is a multi-use as a kitchen/dish towel, bath towel, gym towel, hair towel, burp cloth or a baby nurse-to-nap blanket! Made from 100% pure muslin cotton. This multi use towel is the one stop shop for all your household needs. OEKO-Tex certified.",
+            "shopify-digital-wallet": "/1192362101/digital_wallets/dialog",
+            "og:url": "https://muslincomfort.com/products/breathable-cotton-hand-towel"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "http://muslincomfort.com/cdn/shop/files/muslin-comfort-everything-towel-undyed-2.jpg?v=1748532275"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Muslin Towels For Baby - Amazon.com",
+      "htmlTitle": "Muslin Towels For Baby - Amazon.com",
+      "link": "https://www.amazon.com/muslin-towels-baby/s?k=muslin+towels+for+baby",
+      "displayLink": "www.amazon.com",
+      "snippet": "Muslin Hooded Baby Towels 100% Cotton \uff0cSuper Soft Muslin Baby Bath Towel - 32 x 32 Inches, Suitable for Newborn and Young Children up to 3 Years Old. (Light\u00a0...",
+      "htmlSnippet": "<b>Muslin</b> Hooded Baby <b>Towels</b> 100% Cotton \uff0cSuper Soft <b>Muslin</b> Baby Bath <b>Towel</b> - 32 x 32 Inches, Suitable for Newborn and Young Children up to 3 Years Old. (Light&nbsp;...",
+      "formattedUrl": "https://www.amazon.com/muslin-towels-baby/s?k=muslin+towels+for...",
+      "htmlFormattedUrl": "https://www.amazon.com/<b>muslin</b>-<b>towel</b>s-baby/s?k=<b>muslin</b>+<b>towel</b>s+for...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQds-Gquh-B5mOVq0jgrEct5l4LosGmWEneJQePSs1lVRx-QeRc4y9BemZZ&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "theme-color": "#131921",
+            "viewport": "width=device-width, maximum-scale=2, minimum-scale=1, initial-scale=1, shrink-to-fit=no",
+            "flow-closure-id": "1756368058",
+            "encrypted-slate-token": "AnYxNp0t+fULl5kSEC3070gHB0uFRs+m5nUzFd+7lyOA2gIy/px3zWZzZlrvbp2KjNCPA3XEwYEI6Q1NSUn1p9AMGlTIylxNe/tjvULOE4kSvESyK+3eQDmps08jLL592wraBcWBeDgzWrLCiVG7L2J/3ExDlhnFNidwCOMl8YnPIinfTdfc47OxkF3hEi2lMQsg9E9OOWRc1OS53XWspYnZzagyUlt+5zJYPV4tNbke32btTfAhUrXTj/rF04SZvTA0mpZHmRNM3UWwLp71ONYI3oygHGgQNZ1U8ks=",
+            "anti-csrftoken-a2z": "hNMSQEskkhypJpQKMysEz3Xezm7tmmMMEPyyh7EDz0ynAAAAAGiwEQEwNjZhY2ZmNS1lNzZjLTQyM2UtOTc2OC1mYWU3YTc0Nzk2ODI="
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://m.media-amazon.com/images/G/01/social_share/amazon_logo._CB635397845_.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Muslin Baby Towels with Hood | Soft, Newborn-Friendly",
+      "htmlTitle": "<b>Muslin</b> Baby <b>Towels</b> with Hood | Soft, Newborn-Friendly",
+      "link": "https://www.target.com/s/muslin+baby+towel",
+      "displayLink": "www.target.com",
+      "snippet": "Discover our collection of muslin baby towels with hoods, perfect for newborns. Made from soft cotton, ideal for gentle care. Available in various patterns\u00a0...",
+      "htmlSnippet": "Discover our collection of <b>muslin</b> baby <b>towels</b> with hoods, perfect for newborns. Made from soft cotton, ideal for gentle care. Available in various patterns&nbsp;...",
+      "formattedUrl": "https://www.target.com/s/muslin+baby+towel",
+      "htmlFormattedUrl": "https://www.target.com/s/<b>muslin</b>+baby+<b>towel</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqFC35LzrUw_-das3ywRsDN_GGpLM2twXNI5mzwv-oNbBl8TTRDcDlakcz&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#cc0000",
+            "apple-itunes-app": "app-id=297430070",
+            "theme-color": "#cc0000",
+            "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2, interactive-widget=overlays-content",
+            "msapplication-tileimage": "https://assets.targetimg1.com/static/images/android-chrome-192x192.png",
+            "format-detection": "telephone=no",
+            "config-sha": "7f0b2c0305af5f4d4e1f1d153c6baef502373db2"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://target.scene7.com/is/image/Target/GUEST_d1fab35f-7df9-421e-bc78-dce244e556b5"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Quick Dry Bath Towel \u2013 Muslin Comfort",
+      "htmlTitle": "Quick Dry Bath <b>Towel</b> \u2013 <b>Muslin</b> Comfort",
+      "link": "https://muslincomfort.com/products/breathable-cotton-bath-towel",
+      "displayLink": "muslincomfort.com",
+      "snippet": "100% pure muslin cotton bath sheet (that might just follow you to the couch!)! They are an experience! Their rapid absorption means they dry on contact.",
+      "htmlSnippet": "100% pure <b>muslin</b> cotton bath sheet (that might just follow you to the couch!)! They are an experience! Their rapid absorption means they dry on contact.",
+      "formattedUrl": "https://muslincomfort.com/products/breathable-cotton-bath-towel",
+      "htmlFormattedUrl": "https://<b>muslin</b>comfort.com/products/breathable-cotton-bath-<b>towel</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7s1qq1sTq38t0hqwWWMA07K6cLRxuo30ZSiCccvcklF_9O0Id1ut1Dkw&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "http://muslincomfort.com/cdn/shop/files/muslin-comfort-towel-red-arctic-white-blue-chambray-undyed-5.jpg?v=1748455362",
+            "og:type": "product",
+            "og:image:width": "1500",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Quick Dry Bath Towel",
+            "og:site_name": "Muslin Comfort",
+            "og:price:amount": "62.99",
+            "og:title": "Quick Dry Bath Towel",
+            "og:price:currency": "USD",
+            "og:image:height": "1500",
+            "shopify-checkout-api-token": "eced6190e23658e4941adba5420fac19",
+            "og:description": "Take the luxury to the bathroom with our bath towel! Their rapid absorption means they dry on contact so as not to strip your body of its natural oils. They are also quick drying making for no more dripping or musty smelling towels!! Made from 100% all natrual muslin cotton.",
+            "og:image:secure_url": "https://muslincomfort.com/cdn/shop/files/muslin-comfort-towel-red-arctic-white-blue-chambray-undyed-5.jpg?v=1748455362",
+            "facebook-domain-verification": "9t3jg00ena3lh2jaclj8ff6uef9zp5",
+            "viewport": "width=device-width,initial-scale=1",
+            "twitter:description": "Take the luxury to the bathroom with our bath towel! Their rapid absorption means they dry on contact so as not to strip your body of its natural oils. They are also quick drying making for no more dripping or musty smelling towels!! Made from 100% all natrual muslin cotton.",
+            "shopify-digital-wallet": "/1192362101/digital_wallets/dialog",
+            "og:url": "https://muslincomfort.com/products/breathable-cotton-bath-towel"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "http://muslincomfort.com/cdn/shop/files/muslin-comfort-towel-red-arctic-white-blue-chambray-undyed-5.jpg?v=1748455362"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Muslin Bath Towels",
+      "htmlTitle": "<b>Muslin</b> Bath <b>Towels</b>",
+      "link": "https://www.walmart.com/c/kp/muslin-bath-towels",
+      "displayLink": "www.walmart.com",
+      "snippet": "2 Pack Hooded Baby Towels - 100% Muslin Cotton for Newborns, Infants, Toddlers - Large 32x32Inch Size - Highly Absorbent and Essential for Newborn Care",
+      "htmlSnippet": "2 Pack Hooded Baby <b>Towels</b> - 100% <b>Muslin</b> Cotton for Newborns, Infants, Toddlers - Large 32x32Inch Size - Highly Absorbent and Essential for Newborn Care",
+      "formattedUrl": "https://www.walmart.com/c/kp/muslin-bath-towels",
+      "htmlFormattedUrl": "https://www.walmart.com/c/kp/<b>muslin</b>-bath-<b>towel</b>s",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGebdNqDA2POCym8tsfwsTOPlO6xOSbhqwfn9eH8oGEWTv-ZdmqOkP_9M&s",
+            "width": "180",
+            "height": "180"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://i5.walmartimages.com/seo/Yoofoss-Hooded-Baby-Towels-Newborn-Muslin-Cotton-Baby-Bath-Towel-Hood-Babies-Infant-Toddler-Kids-Large-32x32Inch-Soft-Absorbent-Newborn-Essential-Apr_fa2cced4-caa3-4631-ade6-8ae3c794d063.c769f0ba10b323036be25f5af024d4ef.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+            "next-head-count": "20",
+            "fb:app_id": "105223049547814",
+            "og:type": "Website",
+            "og:site_name": "Walmart.com",
+            "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1, interactive-widget=resizes-content",
+            "og:title": "Muslin Bath Towels",
+            "pagecontext": "inspire",
+            "og:url": "https://www.walmart.com/c/kp/muslin-bath-towels",
+            "og:description": "Shop for Muslin Bath Towels at Walmart.com. Save money. Live better"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i5.walmartimages.com/seo/Yoofoss-Hooded-Baby-Towels-Newborn-Muslin-Cotton-Baby-Bath-Towel-Hood-Babies-Infant-Toddler-Kids-Large-32x32Inch-Soft-Absorbent-Newborn-Essential-Apr_fa2cced4-caa3-4631-ade6-8ae3c794d063.c769f0ba10b323036be25f5af024d4ef.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Rising Star Muslin Towel + Washcloth Set | aden + anais",
+      "htmlTitle": "Rising Star <b>Muslin Towel</b> + Washcloth Set | aden + anais",
+      "link": "https://www.halosleep.com/products/cotton-muslin-towel-washcloth-set-rising-star-ahtc10002",
+      "displayLink": "www.halosleep.com",
+      "snippet": "The aden + anais boutique set includes a 100% cotton oversized muslin-backed towel.",
+      "htmlSnippet": "The aden + anais boutique set includes a 100% cotton oversized <b>muslin</b>-backed <b>towel</b>.",
+      "formattedUrl": "https://www.halosleep.com/.../cotton-muslin-towel-washcloth-set-rising-star...",
+      "htmlFormattedUrl": "https://www.halosleep.com/.../cotton-<b>muslin</b>-<b>towel</b>-washcloth-set-rising-star...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS02_DLPbPpDw_owdMjMW9Q1enJEdskxW8Y9DpDoqcb6US_pIgD5ivEqWv2&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "http://www.halosleep.com/cdn/shop/files/ahtc10002_1-baby-cotton-muslin-hooded-towel-set-rising-star.jpg?v=1731544679&width=1024",
+            "og:type": "product",
+            "twitter:title": "boutique 100% cotton oversized muslin backed towel + washcloth set",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Halo x aden + anais",
+            "og:price:amount": "49.99",
+            "og:title": "boutique 100% cotton oversized muslin backed towel + washcloth set",
+            "og:price:currency": "USD",
+            "twitter:image:height": "480",
+            "shopify-checkout-api-token": "2378052e307070d8fea7c666268b5443",
+            "title": "Rising Star Muslin Towel + Washcloth Set | aden + anais",
+            "og:description": "Shop for rising star muslin towel + washcloth set from aden + anais! Bathtime&#39;s a breeze with our gorgeous, cute and soft muslin bath linens.",
+            "og:image:secure_url": "https://www.halosleep.com/cdn/shop/files/ahtc10002_1-baby-cotton-muslin-hooded-towel-set-rising-star.jpg?v=1731544679&width=1024",
+            "twitter:image": "https://www.halosleep.com/cdn/shop/files/ahtc10002_1-baby-cotton-muslin-hooded-towel-set-rising-star.jpg?v=1731544679&width=1024",
+            "twitter:image:width": "480",
+            "viewport": "width=device-width,initial-scale=1",
+            "twitter:description": "Shop for rising star muslin towel + washcloth set from aden + anais! Bathtime&#39;s a breeze with our gorgeous, cute and soft muslin bath linens.",
+            "shopify-digital-wallet": "/70822592731/digital_wallets/dialog",
+            "og:url": "https://www.halosleep.com/products/cotton-muslin-towel-washcloth-set-rising-star-ahtc10002"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "http://www.halosleep.com/cdn/shop/files/ahtc10002_1-baby-cotton-muslin-hooded-towel-set-rising-star.jpg?v=1731544679&width=1024"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "9-Layer Medium Muslin Bath Towel \u2013 L'Ange Baby",
+      "htmlTitle": "9-Layer Medium <b>Muslin</b> Bath <b>Towel</b> \u2013 L&#39;Ange Baby",
+      "link": "https://langebaby.com/products/9-layer-cotton-muslin-towel-medium",
+      "displayLink": "langebaby.com",
+      "snippet": "This soft, thicker, multipurpose towel has increased thickness for increased absorbency and fluffiness. A must have for toddlers and kids in the winter months.",
+      "htmlSnippet": "This soft, thicker, multipurpose <b>towel</b> has increased thickness for increased absorbency and fluffiness. A must have for toddlers and kids in the winter months.",
+      "formattedUrl": "https://langebaby.com/products/9-layer-cotton-muslin-towel-medium",
+      "htmlFormattedUrl": "https://langebaby.com/products/9-layer-cotton-<b>muslin</b>-<b>towel</b>-medium",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGJa5aXGH-IJD3PWYa5TeyoOfCR41IUkpcE8Ij_PSSPgElqTJPA7r4sv4n&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "http://langebaby.com/cdn/shop/files/9L_Muslin_Towel_7__Pink2.jpg?v=1732686449",
+            "theme-color": "#3a3a3a",
+            "og:type": "product",
+            "og:image:width": "2000",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "9-Layer Medium Muslin Bath Towel",
+            "og:site_name": "L'Ange Baby",
+            "og:price:amount": "37.95",
+            "og:title": "9-Layer Medium Muslin Bath Towel",
+            "og:price:currency": "USD",
+            "og:image:height": "2000",
+            "shopify-checkout-api-token": "e0ca4c593946de7acbfae911fdc6131b",
+            "og:description": "L'Ange Baby 9-Layer Medium Cotton Muslin Towel Size: 28in x 47in Layers: 9 This soft, thicker, multipurpose towel has increased thickness for increased absorbency and fluffiness. A must have for toddlers and kids in the winter months. It is also great as a tummy time blanket, stroller cover and throw in the winter mont",
+            "og:image:secure_url": "https://langebaby.com/cdn/shop/files/9L_Muslin_Towel_7__Pink2.jpg?v=1732686449",
+            "facebook-domain-verification": "h9qpe57rojkhmautfyuqk0fom3a7vh",
+            "viewport": "width=device-width,initial-scale=1",
+            "twitter:description": "L'Ange Baby 9-Layer Medium Cotton Muslin Towel Size: 28in x 47in Layers: 9 This soft, thicker, multipurpose towel has increased thickness for increased absorbency and fluffiness. A must have for toddlers and kids in the winter months. It is also great as a tummy time blanket, stroller cover and throw in the winter mont",
+            "shopify-digital-wallet": "/59749564607/digital_wallets/dialog",
+            "og:url": "https://langebaby.com/products/9-layer-cotton-muslin-towel-medium"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "http://langebaby.com/cdn/shop/files/9L_Muslin_Towel_7__Pink2.jpg?v=1732686449"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Danila baby muslin towel \u2013 nuuroo.com",
+      "htmlTitle": "Danila baby <b>muslin towel</b> \u2013 nuuroo.com",
+      "link": "https://nuuroo.com/products/danila-baby-muslin-towel-towel-natural",
+      "displayLink": "nuuroo.com",
+      "snippet": "The softest hooded towel in 100% organic cotton, perfect after a shower. Color: Natural Quality: 100% organic cotton. Dimensions: 70 x 70 cm\u00a0...",
+      "htmlSnippet": "The softest hooded <b>towel</b> in 100% organic cotton, perfect after a shower. Color: Natural Quality: 100% organic cotton. Dimensions: 70 x 70 cm&nbsp;...",
+      "formattedUrl": "https://nuuroo.com/products/danila-baby-muslin-towel-towel-natural",
+      "htmlFormattedUrl": "https://nuuroo.com/products/danila-baby-<b>muslin</b>-<b>towel</b>-<b>towel</b>-natural",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5zmoRZuGlOQV3IOh4NsxlZEK6MFdvW-ty3Z30FRlVECCsZl1N3jmzcoC&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "http://nuuroo.com/cdn/shop/files/Danila_baby_muslin_towel-Towel-NU566-Natural_grande.jpg?v=1722414126",
+            "og:type": "product",
+            "twitter:card": "summary",
+            "twitter:title": "Danila baby muslin towel",
+            "og:site_name": "nuuroo.com",
+            "og:price:amount": "10,50",
+            "og:title": "Danila baby muslin towel",
+            "og:price:currency": "EUR",
+            "twitter:image:height": "480",
+            "og:description": "The softest hooded towel in 100% organic cotton, perfect after a shower.Color: NaturalQuality: 100% organic cottonDimensions: 70 x 70 cm",
+            "og:image:secure_url": "https://nuuroo.com/cdn/shop/files/Danila_baby_muslin_towel-Towel-NU566-Natural_grande.jpg?v=1722414126",
+            "twitter:image": "https://nuuroo.com/cdn/shop/files/Danila_baby_muslin_towel-Towel-NU566-Natural_large.jpg?v=1722414126",
+            "facebook-domain-verification": "uqn08w2x6jvbhp9cgdn2rwg5kbhxwj",
+            "twitter:site": "@",
+            "twitter:image:width": "480",
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+            "twitter:description": "The softest hooded towel in 100% organic cotton, perfect after a shower.Color: NaturalQuality: 100% organic cottonDimensions: 70 x 70 cm",
+            "shopify-digital-wallet": "/59694383255/digital_wallets/dialog",
+            "og:url": "https://nuuroo.com/products/danila-baby-muslin-towel-towel-natural"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "http://nuuroo.com/cdn/shop/files/Danila_baby_muslin_towel-Towel-NU566-Natural_grande.jpg?v=1722414126"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Keep Rising Muslin Towel + Washcloth Set | aden + anais",
+      "htmlTitle": "Keep Rising <b>Muslin Towel</b> + Washcloth Set | aden + anais",
+      "link": "https://www.halosleep.com/products/cotton-muslin-towel-washcloth-set-keep-rising-ahtc10003",
+      "displayLink": "www.halosleep.com",
+      "snippet": "The aden + anais boutique set includes a charming white hooded cotton muslin towel and washcloth \u00b7 A woman happily holds a\u00a0...",
+      "htmlSnippet": "The aden + anais boutique set includes a charming white hooded cotton <b>muslin towel</b> and washcloth &middot; A woman happily holds a&nbsp;...",
+      "formattedUrl": "https://www.halosleep.com/.../cotton-muslin-towel-washcloth-set-keep-risin...",
+      "htmlFormattedUrl": "https://www.halosleep.com/.../cotton-<b>muslin</b>-<b>towel</b>-washcloth-set-keep-risin...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ91pBZLoXcqgTph-3NOysF06_ANgL1KHwwA3Lp1Zk9jkoPN3IKKXppS2wv&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "http://www.halosleep.com/cdn/shop/files/ahtc10003_1-baby-cotton-muslin-hooded-towel-set-keep-rising.jpg?v=1731544679&width=1024",
+            "og:type": "product",
+            "twitter:title": "boutique 100% cotton oversized muslin backed towel + washcloth set",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Halo x aden + anais",
+            "og:price:amount": "49.99",
+            "og:title": "boutique 100% cotton oversized muslin backed towel + washcloth set",
+            "og:price:currency": "USD",
+            "twitter:image:height": "480",
+            "shopify-checkout-api-token": "2378052e307070d8fea7c666268b5443",
+            "title": "Keep Rising Muslin Towel + Washcloth Set | aden + anais",
+            "og:description": "Shop for keep rising muslin towel + washcloth set from aden + anais! Bathtime&#39;s a breeze with our gorgeous, cute and soft muslin bath linens.",
+            "og:image:secure_url": "https://www.halosleep.com/cdn/shop/files/ahtc10003_1-baby-cotton-muslin-hooded-towel-set-keep-rising.jpg?v=1731544679&width=1024",
+            "twitter:image": "https://www.halosleep.com/cdn/shop/files/ahtc10003_1-baby-cotton-muslin-hooded-towel-set-keep-rising.jpg?v=1731544679&width=1024",
+            "twitter:image:width": "480",
+            "viewport": "width=device-width,initial-scale=1",
+            "twitter:description": "Shop for keep rising muslin towel + washcloth set from aden + anais! Bathtime&#39;s a breeze with our gorgeous, cute and soft muslin bath linens.",
+            "shopify-digital-wallet": "/70822592731/digital_wallets/dialog",
+            "og:url": "https://www.halosleep.com/products/cotton-muslin-towel-washcloth-set-keep-rising-ahtc10003"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "http://www.halosleep.com/cdn/shop/files/ahtc10003_1-baby-cotton-muslin-hooded-towel-set-keep-rising.jpg?v=1731544679&width=1024"
+          }
+        ]
+      }
+    }
+  ]
+}
