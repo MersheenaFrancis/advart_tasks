@@ -3,6 +3,8 @@ from fastapi.responses import JSONResponse
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
+import json
+import os
 
 app = FastAPI(title="Google Custom Search OG Viewer")
 
@@ -11,7 +13,27 @@ BASE_URL = "https://www.googleapis.com/customsearch/v1?key=AIzaSyCpDbRQOGATgDzaT
 
 # Daily quota settings
 DAILY_LIMIT = 10000   # change to 100 if you are on free tier
-usage_tracker = {"date": datetime.utcnow().date(), "count": 0}
+USAGE_FILE = "usage_tracker.json"
+
+
+def load_usage():
+    """Load usage data from file or create new if missing."""
+    if os.path.exists(USAGE_FILE):
+        with open(USAGE_FILE, "r") as f:
+            data = json.load(f)
+            data["date"] = datetime.fromisoformat(data["date"]).date()
+            return data
+    return {"date": datetime.utcnow().date(), "count": 0}
+
+
+def save_usage(data):
+    """Save usage data to file."""
+    with open(USAGE_FILE, "w") as f:
+        json.dump({"date": str(data["date"]), "count": data["count"]}, f)
+
+
+usage_tracker = load_usage()
+
 
 def track_usage(num_queries: int):
     """Track usage per day and reset at midnight UTC."""
@@ -20,7 +42,9 @@ def track_usage(num_queries: int):
         usage_tracker["date"] = today
         usage_tracker["count"] = 0
     usage_tracker["count"] += num_queries
+    save_usage(usage_tracker)  # <-- persist usage
     return DAILY_LIMIT - usage_tracker["count"]
+
 
 def fetch_h1_tags(url: str):
     """Fetch all H1 tags from a URL."""
@@ -33,6 +57,7 @@ def fetch_h1_tags(url: str):
         return h1_tags if h1_tags else ["unable to fetch data"]
     except Exception:
         return ["unable to fetch data"]
+
 
 def extract_relevant_data(items):
     """Extract og:title, og:url, og:description if available + H1 tags."""
@@ -64,6 +89,7 @@ def extract_relevant_data(items):
 
     return simplified
 
+
 def fetch_google_results(query_encoded, total_results):
     """Fetch multiple pages to get more than 10 results."""
     all_items = []
@@ -85,6 +111,7 @@ def fetch_google_results(query_encoded, total_results):
 
     return all_items
 
+
 # POST endpoint
 @app.post("/get-json")
 async def get_json_post(query: str = Form(...), num_results: int = Form(10)):
@@ -94,10 +121,10 @@ async def get_json_post(query: str = Form(...), num_results: int = Form(10)):
     try:
         items = fetch_google_results(query_encoded, num_results)
         simplified_data = extract_relevant_data(items)
-        limit_left = track_usage(len(items))   # <--- added feature
+        limit_left = track_usage(len(items))   # now persisted in file
 
         return JSONResponse(content={
-            "limit_left_today": max(limit_left, 0),   # <--- added feature
+            "limit_left_today": max(limit_left, 0),
             "results": simplified_data
         })
     except requests.exceptions.RequestException:
