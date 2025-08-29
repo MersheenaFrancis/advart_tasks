@@ -1,14 +1,41 @@
 from fastapi import FastAPI, Form
 from fastapi.responses import JSONResponse
 import requests
+from bs4 import BeautifulSoup
+from datetime import datetime
 
 app = FastAPI(title="Google Custom Search OG Viewer")
 
 # Base URL (constant)
 BASE_URL = "https://www.googleapis.com/customsearch/v1?key=AIzaSyCpDbRQOGATgDzaTyI77krM2JPgtwWGG_Y&cx=c7af6f0bf9cd64734&q="
 
+# Daily quota settings
+DAILY_LIMIT = 10000   # change to 100 if you are on free tier
+usage_tracker = {"date": datetime.utcnow().date(), "count": 0}
+
+def track_usage(num_queries: int):
+    """Track usage per day and reset at midnight UTC."""
+    today = datetime.utcnow().date()
+    if usage_tracker["date"] != today:
+        usage_tracker["date"] = today
+        usage_tracker["count"] = 0
+    usage_tracker["count"] += num_queries
+    return DAILY_LIMIT - usage_tracker["count"]
+
+def fetch_h1_tags(url: str):
+    """Fetch all H1 tags from a URL."""
+    try:
+        headers = {"User-Agent": "Mozilla/5.0"}
+        response = requests.get(url, timeout=10, headers=headers)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+        h1_tags = [tag.get_text(strip=True) for tag in soup.find_all("h1")]
+        return h1_tags if h1_tags else ["unable to fetch data"]
+    except Exception:
+        return ["unable to fetch data"]
+
 def extract_relevant_data(items):
-    """Extract og:title, og:url, og:description if available; else show broken_* only."""
+    """Extract og:title, og:url, og:description if available + H1 tags."""
     simplified = []
     for item in items:
         pagemap = item.get("pagemap", {})
@@ -19,18 +46,20 @@ def extract_relevant_data(items):
         og_description = metatags.get("og:description")
 
         if og_title or og_url or og_description:
-            # If OG tags exist, return only OG keys
+            url_to_fetch = og_url or item.get("link", "")
             simplified.append({
                 "og_title": og_title or "",
-                "og_url": og_url or "",
-                "og_description": og_description or ""
+                "og_url": url_to_fetch,
+                "og_description": og_description or "",
+                "h1_tags": fetch_h1_tags(url_to_fetch) if url_to_fetch else ["unable to fetch data"]
             })
         else:
-            # If no OG tags, return only broken_* keys
+            url_to_fetch = item.get("link", "")
             simplified.append({
                 "broken_title": item.get("title", ""),
-                "broken_url": item.get("link", ""),
-                "broken_description": item.get("snippet", "")
+                "broken_url": url_to_fetch,
+                "broken_description": item.get("snippet", ""),
+                "h1_tags": fetch_h1_tags(url_to_fetch) if url_to_fetch else ["unable to fetch data"]
             })
 
     return simplified
@@ -56,7 +85,7 @@ def fetch_google_results(query_encoded, total_results):
 
     return all_items
 
-# POST endpoint (simplified OG/broken data)
+# POST endpoint
 @app.post("/get-json")
 async def get_json_post(query: str = Form(...), num_results: int = Form(10)):
     if num_results > 100:
@@ -65,7 +94,11 @@ async def get_json_post(query: str = Form(...), num_results: int = Form(10)):
     try:
         items = fetch_google_results(query_encoded, num_results)
         simplified_data = extract_relevant_data(items)
-        return JSONResponse(content=simplified_data)
-    except requests.exceptions.RequestException as e:
-        return JSONResponse(status_code=400, content={"error": str(e)})
+        limit_left = track_usage(len(items))   # <--- added feature
 
+        return JSONResponse(content={
+            "limit_left_today": max(limit_left, 0),   # <--- added feature
+            "results": simplified_data
+        })
+    except requests.exceptions.RequestException:
+        return JSONResponse(status_code=400, content={"error": "unable to fetch data"})
